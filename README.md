@@ -22,7 +22,7 @@ vyoma-portfolio/
 ├── src/            # React components, styles, assets, and logic
 ├── .gitignore
 └── README.md
-
+```
 ## 📸 Preview
 
 ![Screenshot 1](home.png)  

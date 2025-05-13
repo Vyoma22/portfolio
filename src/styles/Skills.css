@@ -1,0 +1,70 @@
+.skills {
+  background-color: hsl(216, 28%, 7%);
+  padding: 6rem 2rem;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #58a6ff, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.skills-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #b1b1b1;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.skills-subtitle::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 0.75rem auto 0;
+  background: linear-gradient(90deg, #58a6ff, #c084fc);
+  border-radius: 999px;
+}
+
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 2rem;
+  flex: 1 1 400px;
+  box-shadow: 0 0 12px rgba(88, 166, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.chip-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}

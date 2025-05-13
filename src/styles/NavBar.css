@@ -1,0 +1,44 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #0d1117;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.08);
+}
+
+nav h1 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #c9d1d9;
+  font-weight: 600; /* fixed to prevent width shifting */
+  font-size: 0.95rem;
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /* maintains layout space */
+  transition: color 0.2s ease, border 0.2s ease;
+}
+
+nav a:hover {
+  color: white;
+  border-bottom: 2px solid transparent; /* no underline on hover */
+}
+
+nav a.active {
+  color: white;
+  border-bottom: 2px solid #58a6ff; /* underline only when active */
+}

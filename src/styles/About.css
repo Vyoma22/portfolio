@@ -1,0 +1,130 @@
+.about {
+  padding: 6rem 2rem;
+  background-color: rgb(26 31 44 / var(--tw-bg-opacity, 1));
+  color: #c9d1d9;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #58a6ff, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-subtitle {
+  text-align: center;
+  color: #8b949e;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  position: relative;
+}
+
+.about-subtitle::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 0.75rem auto 0;
+  background: linear-gradient(90deg, #58a6ff, #c084fc);
+  border-radius: 999px;
+}
+
+
+.about-description {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.info-card {
+  background-color: #161b22;
+  padding: 1.8rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(88, 166, 255, 0.06);
+  transition: all 0.3s ease;
+}
+
+.info-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.info-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #b1b1b1;
+  margin-bottom: 0.8rem;
+}
+
+.glow {
+  border: 1px solid rgba(88, 166, 255, 0.15);
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.05);
+}
+
+.leadership-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.experience-list {
+  margin: 0.5rem 0 1rem 1rem;
+  padding-left: 1rem;
+  list-style-type: disc;
+  color: #b1b1b1; /* adjust based on your theme */
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.education-highlights {
+  font-size: 0.75rem;
+  color: #b0b0b0; /* or adjust for subtle contrast */
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.education-highlights strong {
+  color: #b1b1b1; /* darker font for bold text */
+}
+
+.tag {
+  background-color: #2a2f3a;
+  color: #c9d1d9;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+.card {
+  background-color: #1c1c1c;
+  border-radius: 16px;
+  padding: 2rem;
+  flex: 1 1 400px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.25);
+  border: 1px solid rgba(88, 166, 255, 0.2);
+}
+.education-highlights {
+  font-size: 0.75rem;
+  color: #b0b0b0; /* or adjust for subtle contrast */
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.education-highlights strong {
+  color: #b1b1b1; /* darker font for bold text */
+}

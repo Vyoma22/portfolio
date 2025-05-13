@@ -1,11 +1,10 @@
-# Vyoma Shah – Portfolio Website
+# Portfolio Website
 
-This is the source code for my personal portfolio website built using **React.js**. It showcases selected projects, skills, experience, and background information in a clean, interactive format.
+This is the source code for my personal portfolio website built using **React.js**, hosted securely on **Amazon S3** and distributed globally via **CloudFront** with HTTPS enabled.
 
 ## 🌐 Live Site
 
 **[portfolio.vyoma-shah.me](https://portfolio.vyoma-shah.me)**  
-(Hosted securely via Amazon S3 + CloudFront)
 
 ## 🚀 Tech Stack
 

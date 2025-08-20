@@ -1,10 +1,9 @@
 # Portfolio Website
 
-This is the source code for my personal portfolio website built using **React.js**, hosted securely on **Amazon S3** and distributed globally via **CloudFront** with HTTPS enabled.
+This is the source code for my personal portfolio website built using **React.js**.
+// ## 🌐 Live Site
 
-## 🌐 Live Site
-
-**[portfolio.vyoma-shah.me](https://portfolio.vyoma-shah.me)**  
+// **[portfolio.vyoma-shah.me](https://portfolio.vyoma-shah.me)**  
 
 ## 🚀 Tech Stack
 
